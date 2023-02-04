@@ -3,12 +3,12 @@
 	<label
 		id="sidebar-label"
 		for="sidebar-open"
-		class="fixed z-50 h-20 left-0 top-16 pr-4 flex justify-end items-center cursor-pointer"
+		class="fixed z-50 h-20 max-w-md left-0 top-16 pr-4 flex justify-end items-center cursor-pointer transition-all duration-300 hover:contrast-125"
 		><img
-			src="/art/arrow.png"
+			src="/art/arrow.webp"
 			alt="arrow"
 			aria-hidden="true"
-			class="arrow h-12 w-12 transition relative right-20 rotate-180"
+			class="arrow h-16 w-16 relative right-16 rotate-180 transition-all duration-300 hover:brightness-90"
 		/></label
 	>
 	<nav class="fixed z-30 h-screen top-0 left-0 w-96 transition-width">

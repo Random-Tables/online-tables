@@ -15,5 +15,10 @@ module.exports = {
 			serif: ['IM Fell English', 'serif']
 		}
 	},
-	plugins: [require('@tailwindcss/typography')]
+	plugins: [require('@tailwindcss/typography')],
+	variants: {
+		extend: {
+			filter: ['hover', 'focus']
+		}
+	}
 };
