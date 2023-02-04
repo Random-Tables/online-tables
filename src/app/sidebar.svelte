@@ -1,3 +1,7 @@
+<script>
+	import Navlist from './navlist.svelte';
+</script>
+
 <div>
 	<input id="sidebar-open" name="sidebar-open" class="hidden" type="checkbox" />
 	<label
@@ -31,7 +35,9 @@
 			<div class="pt-12 pb-8 px-16">
 				<h3 class="text-5xl font-semibold text-center block leading-loose">Book of</h3>
 				<h3 class="text-5xl font-semibold text-center block">Tables</h3>
-				<ul class="pt-4 flex flex-col"><a href="/about">About</a><a href="/">Home</a></ul>
+				<ul class="pt-4 flex flex-col">
+					<Navlist liClass="mb-4" aClass="text-lg transition-all hover:text-black" />
+				</ul>
 			</div>
 		</div>
 	</nav>
