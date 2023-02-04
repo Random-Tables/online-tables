@@ -3,32 +3,36 @@
 	<label
 		id="sidebar-label"
 		for="sidebar-open"
-		class="absolute z-50 h-20 bg-stone-600 left-0 top-4 pr-4 flex justify-end items-center"
+		class="absolute z-50 h-20 left-0 top-16 pr-4 flex justify-end items-center cursor-pointer"
 		><img
 			src="/art/arrow.png"
 			alt="arrow"
 			aria-hidden="true"
-			class="arrow h-12 w-12 transition"
+			class="arrow h-12 w-12 transition relative right-20 rotate-180"
 		/></label
 	>
-	<nav class="absolute z-30 h-screen top-0 left-0 w-96 transition-width">
+	<nav class="fixed z-30 h-screen top-0 left-0 w-96 transition-width">
 		<div class="relative h-full pt-24 px-8 pb-6">
 			<!-- decorations -->
 			<img
-				src="/art/corner-art-2.png"
+				src="/art/corner2.webp"
 				aria-hidden
 				alt="decoration"
-				class="corner-top absolute top-0 -right-1 z-40"
+				class="corner-top absolute top-0 -right-1 z-40 h-52 -rotate-90"
 			/>
 			<div class="gradient absolute top-0 right-0 z-[35] h-full w-4" />
 			<img
-				src="/art/corner-art-2.png"
+				src="/art/corner2.webp"
 				aria-hidden
 				alt="decoration"
-				class="corner-bottom absolute bottom-0 -right-1 z-40 rotate-90"
+				class="corner-bottom absolute bottom-0 -right-1 z-40 h-52"
 			/>
 			<!-- END decorations -->
-			<ul><a href="/about">About</a><a href="/">Home</a></ul>
+			<div class="pt-12 pb-8 px-16">
+				<h3 class="text-5xl font-semibold text-center block leading-loose">Book of</h3>
+				<h3 class="text-5xl font-semibold text-center block">Tables</h3>
+				<ul class="pt-4 flex flex-col"><a href="/about">About</a><a href="/">Home</a></ul>
+			</div>
 		</div>
 	</nav>
 </div>
@@ -41,10 +45,10 @@
 		transition: left 0.25s ease-in-out;
 	}
 	#sidebar-label {
-		width: calc(100px + 8vw);
-	}
-	#sidebar-label .arrow {
-		transform: rotate(180deg);
+		background: url(/art/bookmark.webp);
+		background-position: right;
+		background-size: cover;
+		width: calc(100px + 22vw);
 	}
 	#sidebar-open:checked ~ nav {
 		left: -21rem;
