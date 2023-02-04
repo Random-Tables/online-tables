@@ -3,7 +3,7 @@
 	<label
 		id="sidebar-label"
 		for="sidebar-open"
-		class="absolute z-50 h-20 left-0 top-16 pr-4 flex justify-end items-center cursor-pointer"
+		class="fixed z-50 h-20 left-0 top-16 pr-4 flex justify-end items-center cursor-pointer"
 		><img
 			src="/art/arrow.png"
 			alt="arrow"
