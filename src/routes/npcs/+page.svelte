@@ -28,7 +28,6 @@
 		button.disabled = false;
 	}
 
-	console.log(FantasyTable);
 	function dwarfMaleClick(evt) {
 		triggerCall(FantasyTable.calls.dwarfMale, evt.srcElement);
 	}
