@@ -25,5 +25,9 @@
 		"tailwindcss": "^3.2.4",
 		"vite": "^4.0.0"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"@random-tables/generator-logic": "^1.0.2",
+		"@random-tables/npc-fantasy": "^1.5.2"
+	}
 }
