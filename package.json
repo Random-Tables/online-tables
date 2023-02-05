@@ -28,6 +28,6 @@
 	"type": "module",
 	"dependencies": {
 		"@random-tables/generator-logic": "^1.0.2",
-		"@random-tables/npc-fantasy": "^1.5.2"
+		"@random-tables/npc-fantasy": "^1.6.6"
 	}
 }

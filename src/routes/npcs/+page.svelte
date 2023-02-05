@@ -28,26 +28,27 @@
 		button.disabled = false;
 	}
 
+	console.log(FantasyTable);
 	function dwarfMaleClick(evt) {
-		triggerCall('npc-fantasy/dwarf/male', evt.srcElement);
+		triggerCall(FantasyTable.calls.dwarfMale, evt.srcElement);
 	}
 	function dwarfFemaleClick(evt) {
-		triggerCall('npc-fantasy/dwarf/female', evt.srcElement);
+		triggerCall(FantasyTable.calls.dwarfFemale, evt.srcElement);
 	}
 	function elfMaleClick(evt) {
-		triggerCall('npc-fantasy/elf/male-middle', evt.srcElement);
+		triggerCall(FantasyTable.calls.elfMaleMiddle, evt.srcElement);
 	}
 	function elfFemaleClick(evt) {
-		triggerCall('npc-fantasy/elf/female-middle', evt.srcElement);
+		triggerCall(FantasyTable.calls.elfFemaleMiddle, evt.srcElement);
 	}
 	function highelfMaleClick(evt) {
-		triggerCall('npc-fantasy/elf/male-high', evt.srcElement);
+		triggerCall(FantasyTable.calls.elfMaleHigh, evt.srcElement);
 	}
 	function highelfFemaleClick(evt) {
-		triggerCall('npc-fantasy/elf/female-high', evt.srcElement);
+		triggerCall(FantasyTable.calls.elfFemaleHigh, evt.srcElement);
 	}
 
-    const outputCSS = "border border-slate-300 rounded p-2 mb-2"
+	const outputCSS = 'border border-slate-300 rounded p-2 mb-2';
 </script>
 
 <h1 class="text-4xl mb-4 flex justify-center">NPC's Generator</h1>
@@ -67,9 +68,9 @@
 
 <div class="flex mb-6 space-x-4 items-center">
 	<span class="font-bold">Name</span>
-	<span bind:this={outputName} class={outputCSS + " w-40"}>-</span>
+	<span bind:this={outputName} class={outputCSS + ' w-40'}>-</span>
 	<span class="font-bold">Age</span>
-	<span bind:this={outputAge} class={outputCSS + " w-12"}>-</span>
+	<span bind:this={outputAge} class={outputCSS + ' w-12'}>-</span>
 </div>
 
 <div class="grid grid-cols-2 gap-4">
