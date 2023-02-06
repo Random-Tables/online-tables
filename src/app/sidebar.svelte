@@ -3,7 +3,7 @@
 </script>
 
 <div>
-	<input id="sidebar-open" name="sidebar-open" class="hidden" type="checkbox" />
+	<input id="sidebar-open" name="sidebar-open" class="hidden" type="checkbox" checked />
 	<label
 		id="sidebar-label"
 		for="sidebar-open"
@@ -12,7 +12,7 @@
 			src="/art/arrow.webp"
 			alt="arrow"
 			aria-hidden="true"
-			class="arrow h-16 w-16 relative right-16 rotate-180 transition-all duration-300 hover:brightness-90"
+			class="arrow h-16 w-16 relative right-16 transition-all duration-300 hover:brightness-90"
 		/></label
 	>
 	<nav class="fixed z-30 h-screen top-0 left-0 w-96 transition-width">
@@ -60,7 +60,7 @@
 		left: -21rem;
 	}
 	#sidebar-open:checked ~ label .arrow {
-		transform: rotate(0);
+		transform: rotate(180deg);
 	}
 
 	.gradient {
