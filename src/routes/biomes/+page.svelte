@@ -31,7 +31,7 @@
 	function biomeClick(evt) {
 		triggerCall(Biome.calls.biomeBiome, evt.srcElement);
 	}
-	const outputCSS = 'border border-slate-300 rounded p-2 mb-2';
+	const outputCSS = 'border border-neutral-100 rounded p-2 mb-2';
 </script>
 
 <Title>Biome Generator</Title>
@@ -42,7 +42,7 @@
 </div>
 
 <span class="font-bold">Terrain</span>
-<div bind:this={outputTerrain} class={outputCSS + 'mb-6'}>-</div>
+<div bind:this={outputTerrain} class={outputCSS}>-</div>
 
 <div class="grid grid-cols-2 gap-4">
 	<div>
