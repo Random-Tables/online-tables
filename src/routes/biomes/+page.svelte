@@ -29,7 +29,7 @@
 		button.disabled = false;
 	}
 	function biomeClick(evt) {
-		triggerCall(Biome.calls.biomeBiome, evt.srcElement);
+		triggerCall(Biome.calls.biomeBiome, evt.target);
 	}
 	const outputCSS = 'border border-neutral-100 rounded p-2 mb-2';
 </script>

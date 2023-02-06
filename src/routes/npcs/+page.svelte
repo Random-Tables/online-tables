@@ -29,22 +29,22 @@
 	}
 
 	function dwarfMaleClick(evt) {
-		triggerCall(FantasyTable.calls.dwarfMale, evt.srcElement);
+		triggerCall(FantasyTable.calls.dwarfMale, evt.target);
 	}
 	function dwarfFemaleClick(evt) {
-		triggerCall(FantasyTable.calls.dwarfFemale, evt.srcElement);
+		triggerCall(FantasyTable.calls.dwarfFemale, evt.target);
 	}
 	function elfMaleClick(evt) {
-		triggerCall(FantasyTable.calls.elfMaleMiddle, evt.srcElement);
+		triggerCall(FantasyTable.calls.elfMaleMiddle, evt.target);
 	}
 	function elfFemaleClick(evt) {
-		triggerCall(FantasyTable.calls.elfFemaleMiddle, evt.srcElement);
+		triggerCall(FantasyTable.calls.elfFemaleMiddle, evt.target);
 	}
 	function highelfMaleClick(evt) {
-		triggerCall(FantasyTable.calls.elfMaleHigh, evt.srcElement);
+		triggerCall(FantasyTable.calls.elfMaleHigh, evt.target);
 	}
 	function highelfFemaleClick(evt) {
-		triggerCall(FantasyTable.calls.elfFemaleHigh, evt.srcElement);
+		triggerCall(FantasyTable.calls.elfFemaleHigh, evt.target);
 	}
 
 	const outputCSS = 'border border-slate-300 rounded p-2 mb-2';

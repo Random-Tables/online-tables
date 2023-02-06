@@ -35,13 +35,13 @@
 	}
 
 	function factionsMilitaryClick(evt) {
-		triggerCall(FactionTables.calls.factionsMilitary, evt.srcElement);
+		triggerCall(FactionTables.calls.factionsMilitary, evt.target);
 	}
 	function factionsProfessionalClick(evt) {
-		triggerCall(FactionTables.calls.factionsProfessional, evt.srcElement);
+		triggerCall(FactionTables.calls.factionsProfessional, evt.target);
 	}
 	function factionsReligiousClick(evt) {
-		triggerCall(FactionTables.calls.factionsReligious, evt.srcElement);
+		triggerCall(FactionTables.calls.factionsReligious, evt.target);
 	}
 
 	const outputCSS = 'border border-neutral-100 rounded p-2 mb-2';
@@ -49,7 +49,7 @@
 
 <Title>Faction Generator</Title>
 
-<p class="mb-2">Select one of the below NPC buttons to generate a character</p>
+<p class="mb-2">Select one of the below buttons to generate a Faction</p>
 
 <div class="flex flex-wrap gap-4 mb-6">
 	<Btn onClick={factionsMilitaryClick}>Faction - Military</Btn>
