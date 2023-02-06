@@ -50,7 +50,7 @@
 	const angloSaxonFemale = (e) => setName(HNC.angloSaxonFemale, HNC.angloSaxonSurname, e);
 </script>
 
-<Title>Biome Generator</Title>
+<Title>Names Generator</Title>
 <p class="mb-2">Select one of the below buttons to generate a character name</p>
 
 <span class="font-bold">Name</span>
