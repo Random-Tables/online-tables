@@ -8,7 +8,7 @@
 <div class="bg w-full font-serif text-stone-800 relative">
 	<header class="sidebar"><Sidebar /></header>
 	<main class="min-h-screen">
-		<div class="container pt-36 lg:px-16 lg:px-32">
+		<div class="container pt-36 px-16 lg:px-32 pb-16">
 			<slot />
 		</div>
 	</main>
