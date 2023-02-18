@@ -8,13 +8,14 @@
 		id="sidebar-label"
 		for="sidebar-open"
 		class="fixed z-50 h-20 max-w-md left-0 top-16 pr-4 flex justify-end items-center cursor-pointer transition-all duration-300 hover:contrast-125"
-		><img
+		><p class="relative -left-24 font-bold text-lg">Show Sidebar</p>
+		<img
 			src="/art/arrow.webp"
 			alt="arrow"
 			aria-hidden="true"
 			class="arrow h-16 w-16 relative right-16 transition-all duration-300 hover:brightness-90"
-		/></label
-	>
+		/>
+	</label>
 	<nav class="fixed z-30 h-screen top-0 left-0 w-96 transition-width">
 		<div class="relative h-full pt-24 px-8 pb-6">
 			<!-- decorations -->
